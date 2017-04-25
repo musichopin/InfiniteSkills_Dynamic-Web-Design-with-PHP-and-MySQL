@@ -1,0 +1,12 @@
+City: OceanCove
+Price: $720,000
+Bedrooms: 4
+Baths: 3
+Footage: 2400 sq. ft.
+Realtor: Shirley Urkiddeng
+Grabber: Won't last long at this price!
+Description: 
+Enjoy the quiet in this Mallard Manor home.
+Lovely garden views and a short walk to the
+golf course for those who can't get enough
+of green living.

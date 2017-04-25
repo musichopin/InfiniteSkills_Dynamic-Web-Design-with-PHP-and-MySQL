@@ -1,0 +1,54 @@
+SELECT title, name
+FROM book JOIN publisher 
+ USING (pub_id);
+
+
+SELECT title, name
+FROM book JOIN publisher 
+ ON (book.pub_id = publisher.pub_id);
+ 
+ 
+SELECT title, name
+FROM book t JOIN publisher p
+ ON (t.pub_id = p.pub_id);  
+ 
+ 
+SELECT lastname, firstname
+FROM author 
+ JOIN bookauthor USING (ssn)
+ JOIN book USING (isbn)
+WHERE title = 'Secrets of Silicon Valley';
+ 
+ 
+ 
+SELECT lastname, firstname
+FROM author 
+ JOIN bookauthor USING (ssn)
+ JOIN book USING (isbn);
+
+
+SELECT lastname, firstname, city 
+FROM author 
+ JOIN publisherUSING (city)
+WHERE name = 'Algodata Infosystems';
+
+
+SELECT lastname, firstname, city
+FROM author 
+  JOIN bookauthor USING (ssn)
+WHERE lastname = 'Ringer';
+
+
+SELECT lastname, firstname, title
+FROM author
+  JOIN bookauthor USING (ssn)  
+  JOIN book USING (isbn)
+	ORDER BY 1, 2, 3;
+
+
+SELECT title, count(ssn)
+FROM book 	
+  JOIN bookauthor USING (isbn) 
+GROUP BY title	
+  HAVING count(ssn) > 1 
+ORDER BY title;

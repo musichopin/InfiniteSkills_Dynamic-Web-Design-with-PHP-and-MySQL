@@ -1,0 +1,54 @@
+Assignment 1 Description
+
+You have been hired by King Real Estate to develop
+a Web site for their company.  They want to make sure 
+they like your work so they will break the project
+up into parts and have you develop one part at a time.
+
+You need to develop a form to collect customer data 
+for a guest book.  For this first phase, you do
+not need to save the data entered at all... just 
+display it on a Web page.
+
+Make sure your Web Application meets the following 
+criteria:
+
+1.  Put the King Real Estate logo at the top
+of the page.
+
+2.  The customer should be able to enter their
+first and last name in separte fields.
+
+3.  Let the customer make a choice on whether
+they would like to be contacted with their phone
+number or email and let them enter that information
+only.
+
+4.  King Real Estate only serves the following
+cities:  Chicago, Detroit, and Toronto.  They
+should only be able to choose amoung those
+cities for potential places to live.
+
+5.  Allow the user to enter comments.
+
+6.  Prove a submit button to send this
+information to the server.
+
+
+After the customer clicks the submit button:
+
+1.  Collect the information entered by the user.
+
+2.  Redisplay the information entered by the user
+being sure to indicate their phone number or email,
+depending on what they entered in the form.
+
+3.  The top of the page should include the company
+logo and a Thank You.  Also, let them know that
+a representative will contact them soon.
+
+4.  Be sure to display their comments in the same
+format as they entered them but don't let them
+make any further changes to the text.
+
+

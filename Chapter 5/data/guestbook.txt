@@ -1,0 +1,15 @@
+Perry|Steve|Phone|777-333-4444|Chicago|2012-03-24|None|
+Jones|Jane|Phone|555-333-4444|Toronto|2012-03-24|N/a|
+adf|asdf|Phone||-|2017-04-08||
+||Phone||-|2017-04-08||
+asdf|ads|Phone||-|2017-04-08||
+asdf|ads|Phone||-|2017-04-08||
+|||||2017-04-08||
+||Phone||-|2017-04-08||
+||Phone||-|2017-04-08||
+|asdf|Phone||-|2017-04-08||
+|2341234|Phone||-|2017-04-08||
+|2341234|Phone||-|2017-04-08||
+||Phone||Detroit|2017-04-09||
+|asdf|Phone||Detroit|2017-04-09||
+|asdf|Phone||$file_city|2017-04-09||

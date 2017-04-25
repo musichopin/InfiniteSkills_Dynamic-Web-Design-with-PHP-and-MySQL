@@ -1,0 +1,14 @@
+City: Pine Beach
+Price: $475,000
+Bedrooms: 2
+Baths: 2.5
+Footage: 1620 sq. ft.
+Realtor: Tom Phoolary
+Grabber: A Lazy Man's Paradise
+Description: 
+This beautiful two-story townhome looks
+out to pine canyon from a spacious back 
+deck. The homeowner's association takes 
+care of all outside mantentance. Never mow 
+a lawn again!
+

@@ -1,0 +1,13 @@
+City: OceanCove
+Price: $950,000
+Bedrooms: 5
+Baths: 3
+Footage: 3000 sq. ft.
+Realtor: Shirley Urkiddeng
+Grabber: Fantastic Home with a Fantastic View!
+Description: 
+You will never get tired of watching the sunset
+from your living room sofa or the sunrise
+from your back porch with a view overlooking
+the gorgeous coral canyon.  Once in a lifetime
+opportunity!

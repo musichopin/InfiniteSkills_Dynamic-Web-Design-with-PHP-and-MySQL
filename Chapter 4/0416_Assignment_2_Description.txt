@@ -1,0 +1,48 @@
+Assignment 2 Description
+
+Here you will continue developing the King Real 
+Estate application
+
+
+
+Make sure your Web Application meets the following 
+criteria:
+
+1.  Develop a Web page that looks like what
+is shown in this video.
+
+2.  Bring over the form from Assignment 1 (the 
+guest list form) and put in a separate DIV
+on the page.
+
+3.  All functionality for this form should
+be the same as it was for Assignment 1.
+
+4.  Add a DIV to the right of the the Guest List
+Form DIV and include a new "Mortgage Calculator" form.
+
+5.  This form includes two text fields 1) Amount Financed
+and 2) Interest Rate  (format example: 5.2 would mean
+five point two percent)
+
+
+After the customer clicks the submit button
+on the "Mortgage Calculator" form, do the 
+following:
+
+1.  Validate that both fields are entered
+and that they are numeric.
+
+2.  Calculate their approximate montly
+payment on the financed amount at the 
+interest rate entered.
+
+Use this Generic Formula:
+
+	monthy payment = amount financed * interest rate) / 12;
+	
+
+3.  Display the results in a browser page.
+
+
+

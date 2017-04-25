@@ -1,0 +1,66 @@
+html {margin:0; padding:0;}
+
+body {
+    	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background: url(../images/background.gif);
+}
+
+p {
+	font-size: 18px;
+}
+
+input {
+	font-size: 18px;
+}
+
+input.disabled {
+	background-color: #DCDCDC;
+	
+}
+
+select {
+	font-size: 18px;
+}
+
+textarea {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.errormsg {
+	color: red;
+}
+
+#guest {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+#calculator {
+	position: absolute;
+	top: 200px;
+	left: 550px;
+	width: 350px;
+	height: 500px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+
+#mortgageresults {
+	position: absolute;
+	top: 200px;
+	left: 10px;
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+

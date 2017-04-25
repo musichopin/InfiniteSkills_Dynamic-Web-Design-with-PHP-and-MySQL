@@ -1,0 +1,87 @@
+SELECT price	 
+FROM book	 
+WHERE title = 'Straight Talk About Computers';
+   
+   
+SELECT title, price
+FROM book 
+WHERE price = 29.99;
+   
+
+SELECT title, price
+FROM book
+WHERE price = 	
+  (SELECT price	 
+   FROM book	 
+   WHERE title = 'Straight Talk About Computers');
+   
+   
+SELECT name, lastname, firstname
+FROM publisher   
+JOIN author USING (city);
+
+
+SELECT name
+FROM publisher
+WHERE city IN	
+  (SELECT city 
+   FROM author);
+
+
+SELECT lastname, firstname, state
+FROM author
+WHERE state='TN' or state='KS' or state='MD';
+
+
+SELECT lastname, firstname, state
+FROM author
+WHERE state IN ('TN', 'KS', 'MD');
+
+
+SELECT lastname, firstname, state
+FROM author
+WHERE state IN 
+ (SELECT state
+  FROM author
+  WHERE state != 'CA');
+
+
+SELECT state
+FROM author
+WHERE state != 'CA';
+  
+  
+SELECT lastname, firstname, state
+FROM author 
+WHERE state IN ('KS', 'TN', 'OR', 'MI', 'IN', 'MD', 'UT');
+
+
+SELECT lastname, firstname
+FROM author
+WHERE ssn IN
+   (SELECT ssn	 
+    FROM bookauthor	 
+    WHERE author_order = 3);
+    
+   
+   
+SELECT title, ytd_sales * price, advance
+FROM book
+WHERE ytd_sales * price >	
+ (SELECT MAX(advance)	 
+  FROM book);
+
+
+
+UPDATE book
+SET price = price * 2 
+WHERE pub_id IN	
+ (SELECT pub_id	 
+  FROM publisher	 
+  WHERE name = 'New Age Books');
+  
+SELECT * 
+FROM book;
+
+
+

@@ -1,0 +1,32 @@
+html {margin:0; padding:0;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: #F0E68C;
+}
+
+p {
+	font-size: 16px;
+}
+
+input {
+	font-size: 16px;
+}
+
+select {
+	font-size: 16px;
+}
+
+textarea {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.textblue {
+	color: blue;
+}
+
+.textdisabled {
+	background-color: lightgray;
+}

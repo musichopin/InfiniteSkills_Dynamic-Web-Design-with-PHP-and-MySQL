@@ -1,0 +1,10 @@
+
+AND condition: TRUE or FALSE? 
+
+if ($age > 50 && $years_slept > 15)
+
+
+1.	$age = 60  and  $years_slept = 20		TRUE
+2.	$age = 40  and  $years_slept = 20		FALSE
+3.	$age = 60  and  $years_slept = 10		FALSE
+4.	$age = 40  and  $years_slept = 10		FALSE

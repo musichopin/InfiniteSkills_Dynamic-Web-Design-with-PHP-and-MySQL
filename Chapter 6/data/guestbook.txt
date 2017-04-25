@@ -1,0 +1,3 @@
+Perry|Steve|Phone|777-333-4444|Chicago|2012-03-24|None|
+Jones|Jane|Phone|555-333-4444|Toronto|2012-03-24|N/a|
+Jones|Steve|Phone|777-111-8888|Toronto|2012-03-24|no comment|

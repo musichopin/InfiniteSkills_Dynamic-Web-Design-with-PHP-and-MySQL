@@ -1,0 +1,36 @@
+Assignment 3 Description
+
+Here you will continue developing the King Real 
+Estate application 
+
+
+Make sure your Web Application meets the following 
+criteria:
+
+1.  Develop a Web page that looks like what
+	is shown in this video.
+
+2.  Start with the files from Assignment 2.
+    Name the assignment_2.html file assignment_3.php (you
+    will be adding PHP code to this page!)  Name
+    the assignment_2_thank_you file 
+    assignment_3_add_to_guestbook.php
+
+3.  Change the assignment_3.php file to read in the
+	options for the select-option list directly
+	from a file cities.txt
+	
+4.	Add code to the assignment_3_add_to_guestbook.php
+	to append a single line of data to guestbook.txt
+	
+5.	Create a new program, assignment_3_view_guestbook.php
+	that will display all of the names in the guestbook.txt
+	file in an HTML table.  Make sure the table rows
+	have different alternate background colors.
+	
+6.	Add a link to the assignment_3.php file that
+	will open assignment_3_view_guestbook.php
+	in a new window or tab.
+	
+7.  You will not change the Mortgage Calculator
+	for this assignment.

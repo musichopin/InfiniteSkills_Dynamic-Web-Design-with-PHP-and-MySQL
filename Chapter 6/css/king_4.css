@@ -1,0 +1,113 @@
+html {margin:0; padding:0;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: #F0E68C;
+}
+
+p {
+	font-size: 16px;
+}
+
+p.topofdiv {
+	font-weight: bold;
+}
+
+
+input {
+	font-size: 16px;
+}
+
+select {
+	font-size: 16px;
+}
+
+textarea {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.textblue {
+	color: blue;
+}
+
+.textdisabled {
+	background-color: lightgray;
+}
+
+.errormsg {
+	color: red;
+}
+
+#guest {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+#calculator {
+	position: absolute;
+	top: 100px;
+	left: 550px;
+	width: 350px;
+	height: 500px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+
+#mortgageresults {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+#featuredhouse
+{
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	width: 350px;
+	height: 470px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+
+#realtorlist
+{
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	width: 130px;
+	height: 650px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+#findhome
+{
+	position: absolute;
+	top: 600px;
+	left: 10px;
+	width: 350px;
+	height: 150px;
+	padding: 10px;
+	background-color: #E6E6FA;
+}
+
+#endpage
+{
+	position: absolute;
+	top: 800px;
+	left: 10px;
+}

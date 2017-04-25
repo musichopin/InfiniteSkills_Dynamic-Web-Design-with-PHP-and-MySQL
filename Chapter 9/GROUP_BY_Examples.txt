@@ -1,0 +1,45 @@
+SELECT pub_id, COUNT(title)
+FROM book
+GROUP BY pub_id;
+
+
+SELECT pub_id, type, COUNT(type)
+FROM book
+GROUP BY pub_id, type;
+
+
+SELECT pub_id, type, COUNT(type)
+FROM book
+GROUP BY pub_id;
+
+
+SELECT type, AVG(price)
+FROM book
+WHERE advance > 5000
+GROUP BY type;
+
+
+SELECT type, AVG(price)
+FROM book
+GROUP BY type;
+
+
+SELECT type, AVG(price)
+FROM book
+WHERE advance > 5000
+GROUP BY type
+ORDER BY 2;
+
+
+SELECT type, count(*)
+FROM book
+GROUP BY type
+HAVING COUNT(*) > 1;
+
+
+SELECT pub_id, SUM(advance), AVG(price)
+FROM book
+GROUP BY pub_id
+HAVING SUM(advance) > 15000
+ AND AVG(price) < 30
+ AND pub_id  < 3

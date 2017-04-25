@@ -1,0 +1,14 @@
+City: Tomsville
+Price: $595,000
+Bedrooms: 4
+Baths: 2
+Footage: 2425 sq. ft.
+Realtor: Tom Phoolary
+Grabber: Classic Big White House!
+Description: 
+You won't have to be the President to
+live here!  Spacious old-style home
+has winding staircase and a big outdoor
+sunning area on the 2nd level.  Catch
+some rays and some Zzzzz's
+

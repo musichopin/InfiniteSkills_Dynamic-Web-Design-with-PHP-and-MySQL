@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>1005 Simple Ajax Example</title>
+
+	<link rel="stylesheet" type="text/css" href="css/basic_2.css" />
+
+	<script>
+	// 1create request
+	var XMLHttpRequestObject = false;
+
+	if (window.XMLHttpRequest) {
+	  XMLHttpRequestObject = new XMLHttpRequest();
+	} else if (window.ActiveXObject) { // for IE
+	  XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+
+	function callPHPAjax()
+	{
+	  if(XMLHttpRequestObject) {
+
+	  	// 2open file
+	    XMLHttpRequestObject.open("POST", "1005_Simple_Ajax_Example_ajax.php");
+
+	    // since we deal with form and pass data we do this way
+	    XMLHttpRequestObject.setRequestHeader('Content-Type',
+	      'application/x-www-form-urlencoded');
+
+	    // 3create an event handler for our request to call back
+	    // **we set up listening before we asked the question below with send method, 
+	    // since its possible that response wud be sent back before we fully set up the listener code (send metodu sonrasında response oluyor diye düşün)**
+	    XMLHttpRequestObject.onreadystatechange = function()
+	    {
+	      if (XMLHttpRequestObject.readyState == 4 &&
+	        XMLHttpRequestObject.status == 200) {
+
+	          var returnedData = XMLHttpRequestObject.responseText;
+
+	          var messageDiv = document.getElementById('messagediv');
+	          messageDiv.innerHTML = returnedData;
+
+	      }
+	    };
+
+	    // 4send request
+		var data = "Steve";
+
+	    XMLHttpRequestObject.send("data=" + data); // *name value pair to be sent to php file*
+	  }
+
+	  return false;
+
+	}
+
+	</script>
+
+</head>
+
+<body>
+<h1>Simple Ajax Example</h1>
+
+<form method='post'>
+	<input type="button" value="Text Ajax" onclick="callPHPAjax();" />
+</form>
+
+<div id="messagediv">
+</div>
+
+
+</body>
+</html>
