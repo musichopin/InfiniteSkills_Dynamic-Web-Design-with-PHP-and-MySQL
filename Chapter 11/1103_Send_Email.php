@@ -11,7 +11,7 @@
 
 $myFirstName = $_POST['firstname'];
 $mySubject = $_POST['subject'];
-$myMessage = $_POST['message'];
+$myMessage = $_POST['message']; /* *body* */
 $TO_email = $_POST['to_email'];
 
 sendEmailToSomebody($myFirstName, $mySubject, $myMessage, $TO_email);
@@ -23,7 +23,7 @@ print "<h4>An email has been sent to $myFirstName</h4>";
 function sendEmailToSomebody($myFirstName, $mySubject, $myMessage, $TO_email)
 {
 
-	$to = $TO_email;
+	$to = $TO_email; /* ***aslında $to'nun hardcoded olarak yazılması gerekirdi*** */
 
 	$subject = $mySubject." name: ".$myFirstName;
 
@@ -33,6 +33,7 @@ function sendEmailToSomebody($myFirstName, $mySubject, $myMessage, $TO_email)
 	$from = 'From: "The Instructor" <stevetest@profperry.com>';
 
 	$rtnto = '-steveclass@profperry.com';  //Can Specify a different Return-To email!
+	/* **aslında $rtnto'nun hardcoded olarak yazılmaması gerekirdi (?)** */
 
 	mail($to, $subject, $body, $from, $rtnto);
 	// **$to, $subject, $message parametreleri gerekli diğerleri optional**
